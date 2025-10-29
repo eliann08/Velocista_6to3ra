@@ -3058,22 +3058,22 @@
 		(uuid "3a3c92db-24a5-4cb0-a3b4-779e6a0dc53e")
 	)
 	(junction
-		(at 140.208 119.634)
+		(at 139.7 112.014)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8e5294bb-63d3-4f26-82d4-429c2f9ab44c")
-	)
-	(junction
-		(at 140.208 112.014)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "974a35be-7226-42e3-a688-f500e24c151b")
+		(uuid "49d2da7e-654c-4e9f-9780-ada56f24572d")
 	)
 	(junction
 		(at 140.208 104.394)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98af80ed-dd8d-4051-9fd0-555e2ffe518c")
+	)
+	(junction
+		(at 139.7 119.634)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2fffbe8-7f7e-47c2-ab5f-b518ff775332")
 	)
 	(junction
 		(at 59.944 38.354)
@@ -3209,6 +3209,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 119.634) (xy 143.764 119.634)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "291a3f13-b963-4d52-b6fb-8df062564f73")
+	)
+	(wire
+		(pts
 			(xy 133.604 103.378) (xy 138.684 103.378)
 		)
 		(stroke
@@ -3269,7 +3279,7 @@
 	)
 	(wire
 		(pts
-			(xy 136.652 119.634) (xy 140.208 119.634)
+			(xy 136.652 119.634) (xy 139.7 119.634)
 		)
 		(stroke
 			(width 0)
@@ -3386,16 +3396,6 @@
 			(type default)
 		)
 		(uuid "645f51ea-26d6-4d6a-8e43-0eac4d2793e5")
-	)
-	(wire
-		(pts
-			(xy 143.764 119.634) (xy 140.208 119.634)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68ba8006-e8ed-46f1-b58e-01c4bbd59668")
 	)
 	(wire
 		(pts
@@ -3549,7 +3549,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.208 112.014) (xy 133.604 112.014)
+			(xy 133.604 112.014) (xy 139.7 112.014)
 		)
 		(stroke
 			(width 0)
@@ -3566,6 +3566,16 @@
 			(type default)
 		)
 		(uuid "c4864c81-2fee-47a9-b387-da5bb26398ae")
+	)
+	(wire
+		(pts
+			(xy 139.7 112.014) (xy 143.764 112.014)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4885f81-eda2-4356-b858-99ac596964e3")
 	)
 	(wire
 		(pts
@@ -3606,16 +3616,6 @@
 			(type default)
 		)
 		(uuid "dc839da6-11e7-4362-b8b1-e4b314b00a19")
-	)
-	(wire
-		(pts
-			(xy 143.764 112.014) (xy 140.208 112.014)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e955a4c9-b187-4b92-9369-b18730900e00")
 	)
 	(wire
 		(pts
@@ -4610,7 +4610,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 141.1732 104.394 0)
 			(effects
 				(font
@@ -5928,76 +5928,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 140.208 115.824 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c22a8fe3-6216-4484-9e2b-38aefe109ede")
-		(property "Reference" "C2"
-			(at 143.51 114.5539 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 143.51 117.0939 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
-			(at 141.1732 119.634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.208 115.824 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 140.208 115.824 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7fa8671-45bc-408e-a2d9-c255683fe736")
-		)
-		(pin "2"
-			(uuid "2e7389f0-feca-41a4-9dda-58fa9301918f")
-		)
-		(instances
-			(project "velocista_holap"
-				(path "/1010dc30-9ded-4f78-9883-94d6f7871a3f"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Linear:LM7805_TO220")
 		(at 74.422 38.354 0)
 		(unit 1)
@@ -6064,6 +5994,76 @@
 			(project "Velocista_6to_3ra"
 				(path "/1010dc30-9ded-4f78-9883-94d6f7871a3f"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 139.7 115.824 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddfa7ba8-9588-4f08-8b99-3ea16e149095")
+		(property "Reference" "C2"
+			(at 143.002 114.5539 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 143.002 117.0939 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+			(at 140.6652 119.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 139.7 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20081736-8239-4b55-a4b0-bc7976d72977")
+		)
+		(pin "2"
+			(uuid "547194d1-6cd9-49f4-9397-48e206324200")
+		)
+		(instances
+			(project "velocista_holap"
+				(path "/1010dc30-9ded-4f78-9883-94d6f7871a3f"
+					(reference "C2")
 					(unit 1)
 				)
 			)
